@@ -78,3 +78,17 @@ function evnNum(arr) {
   }
   return newArr;
 }
+
+//Problem 8: Capitalize First Letter of Each Word
+function capitalize(str) {
+  const newArr = str.split(" ");
+  const capArr = [];
+
+  for (let i = 0; i < newArr.length; i++) {
+    let word = newArr[i];
+    let capitalized = word[0].toUpperCase() + word.slice(1);
+    capArr.push(capitalized);
+  }
+
+  return capArr.join(" ");
+}
