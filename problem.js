@@ -44,3 +44,15 @@ function maxNumber(numArr) {
   }
   return value;
 }
+
+// problem 5: Remove Duplicates from an Array
+function removeDup(numArr) {
+  const newArr = [];
+
+  for (let i = 0; i < numArr.length; i++) {
+    if (newArr.indexOf(numArr[i]) === -1) {
+      newArr.push(numArr[i]);
+    }
+  }
+  return newArr;
+}
