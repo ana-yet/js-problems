@@ -33,3 +33,14 @@ function palindrome(str) {
   }
   return true;
 }
+
+// problem 4:  Find the Maximum Number
+function maxNumber(numArr) {
+  let value = 0;
+  for (let i = 0; i < numArr.length; i++) {
+    if (numArr[i] > value) {
+      value = numArr[i];
+    }
+  }
+  return value;
+}
