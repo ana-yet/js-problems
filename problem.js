@@ -56,3 +56,13 @@ function removeDup(numArr) {
   }
   return newArr;
 }
+
+// Problem 6: Sum of All Numbers in an Array
+function arrSum(arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+
+  return sum;
+}
