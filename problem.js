@@ -92,3 +92,13 @@ function capitalize(str) {
 
   return capArr.join(" ");
 }
+
+// Problem 9: Find the Factorial of a Number
+function factNum(num) {
+  if (num < 0) return undefined;
+  let res = 1;
+  for (let i = 2; i <= num; i++) {
+    res *= i;
+  }
+  return res;
+}
