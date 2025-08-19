@@ -13,3 +13,12 @@ function reverseString(stn) {
   const reverseString = reverseArray.join("");
   return reverseString;
 }
+
+// problem 2: Count Vowel
+function countVowels(str) {
+  const count = str.match(/[aeiou]/gi).length;
+
+  return count;
+}
+
+// problem 3:
