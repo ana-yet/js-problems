@@ -66,3 +66,15 @@ function arrSum(arr) {
 
   return sum;
 }
+
+// Problem 7: Find Even Numbers in an Array
+function evnNum(arr) {
+  const newArr = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
+      newArr.push(arr[i]);
+    }
+  }
+  return newArr;
+}
